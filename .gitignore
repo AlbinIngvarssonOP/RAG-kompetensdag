@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local environment and secrets
+.venv/
+.env
+.env.*
+!.env.example
+.envrc
+.streamlit/secrets.toml
+
+
+# Generated workshop data; may contain document text.
+/storage/
+/vector_db/
+/wikipedia/documents/
+
+# macOS metadata
+.DS_Store
+._*
